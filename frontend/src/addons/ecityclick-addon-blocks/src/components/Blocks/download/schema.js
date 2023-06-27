@@ -13,7 +13,7 @@ export const schemaDownload = (props) => {
     fieldsets: [
       {
         id: 'default',
-        title: props.intl(messages.title),
+        title: props.intl.formatMessage(messages.title),
         fields: ['title', 'description'],
       },
       {
