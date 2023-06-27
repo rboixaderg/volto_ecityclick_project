@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "ecityclick-addon-theme": [
+                "addons/ecityclick-addon-theme/src"
+            ],
+            "ecityclick-addon-blocks": [
+                "addons/ecityclick-addon-blocks/src"
+            ]
+        },
+        "baseUrl": "src"
+    }
+}

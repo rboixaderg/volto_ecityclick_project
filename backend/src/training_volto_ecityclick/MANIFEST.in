@@ -1,0 +1,6 @@
+graft src/training_volto_ecityclick
+graft docs
+include *.rst
+include *.md
+include *.cfg
+global-exclude *.pyc

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layers>
+  <layer interface="training_volto_ecityclick.interfaces.ITRAINING_VOLTO_ECITYCLICKLayer"
+         name="training_volto_ecityclick"
+  />
+</layers>

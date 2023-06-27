@@ -1,0 +1,3 @@
+---
+hostname: 'training_volto_ecityclick'
+fqdn: '{{ hostname }}.localhost'

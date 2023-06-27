@@ -1,0 +1,35 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="training_volto_ecityclick"
+    >
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Plone: Install"
+      description="Configure plone  package."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      post_handler=".setuphandlers.post_install"
+      />
+
+  <genericsetup:registerProfile
+      name="initial"
+      title="training_volto_ecityclick: Initial content"
+      description="Initial content for our website."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/initial"
+      pre_handler=".setuphandlers.populate_portal"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="training_volto_ecityclick: Uninstall"
+      description="Uninstall training_volto_ecityclick setup."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/uninstall"
+      />
+
+  <include package=".upgrades" />
+
+</configure>

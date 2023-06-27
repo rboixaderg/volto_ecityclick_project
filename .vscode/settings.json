@@ -1,0 +1,15 @@
+{ 
+  "eslint.workingDirectories": ["./frontend"],
+  "[javascript]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false,
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": true,
+},
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+},
+}

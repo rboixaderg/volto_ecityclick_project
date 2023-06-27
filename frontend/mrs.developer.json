@@ -1,0 +1,8 @@
+{
+  "ecityclick-addon-theme": {
+    "local": "addons/ecityclick-addon-theme/src"
+  },
+  "ecityclick-addon-blocks": {
+    "local": "addons/ecityclick-addon-blocks/src"
+  }
+}

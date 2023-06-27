@@ -1,0 +1,8 @@
+-c constraints.txt
+-e src/training_volto_ecityclick[test]
+
+zope.testrunner
+
+# Add required add-ons
+# (Ideally add them in setup.py for training_volto_ecityclick)
+# collective.easyform
