@@ -34,6 +34,7 @@
     "@eeacms/volto-corsproxy",
     "ecityclick-addon-blocks",
     "@eeacms/volto-block-style",
+    "volto-subfooter",
     "ecityclick-addon-theme"
   ],
   "theme": "ecityclick-addon-theme",
@@ -154,7 +155,8 @@
     "@eeacms/volto-matomo": "*",
     "@kitconcept/volto-blocks-grid": "*",
     "@kitconcept/volto-slider-block": "*",
-    "@plone/volto": "16.21.0"
+    "@plone/volto": "16.21.0",
+    "volto-subfooter": "3.0.0"
   },
   "devDependencies": {
     "@plone/scripts": "^2.1.5",

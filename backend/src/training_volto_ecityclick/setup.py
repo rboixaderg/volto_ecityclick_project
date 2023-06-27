@@ -49,6 +49,7 @@ setup(
         "Plone",
         "prettyconf",
         "plone.api",
+        "collective.volto.subfooter"
     ],
     extras_require={
         "test": [
