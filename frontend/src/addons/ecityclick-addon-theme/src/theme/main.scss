@@ -1,0 +1,8 @@
+@import 'variables';
+@import 'addonsThemeCustomizationsVariables';
+
+.background-color-primary {
+  background-color: $primary-color;
+}
+
+@import 'addonsThemeCustomizationsMain';
